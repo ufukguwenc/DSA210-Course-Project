@@ -1,17 +1,26 @@
-# DSA210 Course Project - My Yearly Instagram Usage vs Finals Weeks 
+# DSA210 Course Project 
+
+# Examining Instagram Usage Patterns: A Comparative Analysis of Finals vs. Non-Finals Weeks
+
 
 # Motivation
 Social media usage has become a ubiquitous part of my daily life, often impacting my productivity, time management, and overall mental well-being. By analyzing my Instagram data, I aim to gain valuable insights into how my social media activity correlates with significant academic periods, particularly final exam weeks. Understanding these patterns can help identify trends and suggest strategies for balancing social media engagement with academic responsibilities.
 
 # Project Idea
 The goal of this project is to explore the relationship between my Instagram activity and specific academic milestones, such as final exam periods. The analysis will cover:
+
 Messages: Analyzing the number of messages sent and received on a daily basis to observe communication trends, particularly during finals.
-Stories: Evaluating the frequency of stories shared and any associated metadata, such as music genres used, to uncover behavioral patterns.
+
+Stories: Evaluating the frequency of stories shared.
+
 Saved Posts: Investigating saved posts to identify trends in content consumption, with a focus on academic versus non-academic periods.
+
 Likes: Analyzing liked posts to assess engagement levels and their fluctuation during critical academic periods.
-By combining these datasets, I will test hypotheses about how Instagram activity changes during high-stress academic periods and regular weeks. For instance:
+
+By combining these datasets, I will test a null hypothesis about how Instagram activity changes during high-stress academic periods and regular weeks. 
+
 Null Hypothesis: There is no significant difference in Instagram activity (messages, stories, saved posts, or likes) during final exam weeks compared to non-final weeks.
-Alternative Hypothesis: Instagram activity significantly increases or decreases during final exam weeks.
+
 
 # Data Source & Scope
 I requested and exported my personal Instagram data. I collected my yearly Instagram activity data that spans from 09-01-2024 to 09-01-2025. Although Instagram provides it's user with a variaty of his/her data, in this project I will only use datas from "content" (stories and posts i shared), "messages", "likes" and "saved" folders which are inside the folder of "your_instagram_activity".
@@ -25,6 +34,11 @@ Image 1: Main Folder
 
 Image 2: Folders inside "your_instagram_activity"
 
+Since the data I obtained directly from Instagram was well structured (hierarchically alligned JSON formay), already clean and consistent, I didn't perform any extra operation, such as cleaning or restructuring, on the data I received. Below, an example image can be found.
+
+![image](https://github.com/user-attachments/assets/2a368b66-a461-4dff-a3be-f0092783f8ee)
+
+Image 3: Example of my data, obtained from "saved_posts".
 
 # Tools 
 
